@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_SITE_NAME": "Building Management System",
+    "NEXT_PUBLIC_COMPANY_NAME": "Example Property Management Ltd",
+    "NEXT_PUBLIC_CONTACT_EMAIL": "contact@example.com",
+    "NEXT_PUBLIC_CONTACT_PHONE": "000-000-000"
+  }
+} 

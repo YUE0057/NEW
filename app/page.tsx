@@ -39,7 +39,7 @@ export default function Home() {
                   Maintenance Request
                 </Link>
                 <Link href="/payments" className="block text-blue-600 hover:text-blue-800">
-                  Pay Utilities (Water/Electricity)
+                  Pay Property Fees
                 </Link>
                 <Link href="/documents" className="block text-blue-600 hover:text-blue-800">
                   Download Documents
@@ -54,7 +54,7 @@ export default function Home() {
               <h2 className="text-xl font-semibold text-gray-900 mb-4">Contact Us</h2>
               <div className="space-y-2 text-gray-600">
                 <p>Emergency Contact: 000-000-000</p>
-                <p>Building Manager Office: Room 101</p>
+                <p>Management Office: Room 101</p>
                 <p>Office Hours: Mon-Fri 9:00 AM - 5:00 PM</p>
               </div>
             </div>

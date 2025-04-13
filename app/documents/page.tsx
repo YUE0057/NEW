@@ -4,32 +4,32 @@ export default function DocumentsPage() {
   const documents = [
     {
       id: 1,
-      title: '业主委员会章程',
-      category: '规章制度',
+      title: 'Building Committee Bylaws',
+      category: 'Regulations',
       date: '2024-01-01',
       size: '156 KB',
       downloadUrl: '/documents/bylaws.pdf'
     },
     {
       id: 2,
-      title: '物业服务合同模板',
-      category: '合同文件',
+      title: 'Property Service Contract Template',
+      category: 'Contracts',
       date: '2024-02-15',
       size: '234 KB',
       downloadUrl: '/documents/contract.pdf'
     },
     {
       id: 3,
-      title: '2024年度物业费用标准',
-      category: '收费标准',
+      title: '2024 Property Management Fee Standards',
+      category: 'Fee Standards',
       date: '2024-03-01',
       size: '89 KB',
       downloadUrl: '/documents/fees.pdf'
     },
     {
       id: 4,
-      title: '装修管理规定',
-      category: '规章制度',
+      title: 'Renovation Management Regulations',
+      category: 'Regulations',
       date: '2024-03-15',
       size: '178 KB',
       downloadUrl: '/documents/renovation.pdf'
@@ -41,9 +41,9 @@ export default function DocumentsPage() {
       <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
-            <h1 className="text-3xl font-bold text-gray-900">文件下载</h1>
+            <h1 className="text-3xl font-bold text-gray-900">Document Downloads</h1>
             <Link href="/" className="text-blue-600 hover:text-blue-800">
-              返回首页
+              Back to Home
             </Link>
           </div>
         </div>
@@ -52,9 +52,9 @@ export default function DocumentsPage() {
       <main className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="bg-white shadow rounded-lg overflow-hidden">
           <div className="px-4 py-5 sm:px-6">
-            <h2 className="text-lg font-medium text-gray-900">可下载文件列表</h2>
+            <h2 className="text-lg font-medium text-gray-900">Available Documents</h2>
             <p className="mt-1 text-sm text-gray-500">
-              这里列出了所有可供下载的物业相关文件
+              List of all available property management documents for download
             </p>
           </div>
           <div className="border-t border-gray-200">
@@ -87,7 +87,7 @@ export default function DocumentsPage() {
                         className="font-medium text-blue-600 hover:text-blue-500"
                         download
                       >
-                        下载
+                        Download
                       </a>
                     </div>
                   </div>

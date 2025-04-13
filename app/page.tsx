@@ -35,6 +35,9 @@ export default function Home() {
             <div className="p-6">
               <h2 className="text-xl font-semibold text-gray-900 mb-4">Quick Links</h2>
               <div className="space-y-3">
+                <Link href="/building-environment" className="block text-blue-600 hover:text-blue-800">
+                  Building Environment Overview
+                </Link>
                 <Link href="/maintenance" className="block text-blue-600 hover:text-blue-800">
                   Maintenance Request
                 </Link>

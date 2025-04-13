@@ -2,6 +2,13 @@
 
 A Next.js-based building management system designed to support daily building operations and utility management.
 
+## Quick Links
+
+- [Overview of the Building Environment](/app/building-environment)
+- [Maintenance Requests](/app/maintenance)
+- [Utility Bills](/app/payments)
+- [Document Downloads](/app/documents)
+
 ## Features
 
 - Maintenance Request Management

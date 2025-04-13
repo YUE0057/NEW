@@ -55,6 +55,7 @@ export default function MaintenancePage() {
                 value={formData.name}
                 onChange={handleChange}
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                placeholder="Enter your name"
               />
             </div>
 
@@ -70,6 +71,7 @@ export default function MaintenancePage() {
                 value={formData.unit}
                 onChange={handleChange}
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                placeholder="Enter your unit number"
               />
             </div>
 
@@ -85,6 +87,7 @@ export default function MaintenancePage() {
                 value={formData.phone}
                 onChange={handleChange}
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                placeholder="Enter your phone number"
               />
             </div>
 
@@ -100,6 +103,7 @@ export default function MaintenancePage() {
                 onChange={handleChange}
                 rows={4}
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                placeholder="Describe the maintenance issue"
               />
             </div>
 
@@ -115,6 +119,8 @@ export default function MaintenancePage() {
                 value={formData.preferredTime}
                 onChange={handleChange}
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
+                placeholder="YYYY/MM/DD --:--"
+                lang="en"
               />
             </div>
 

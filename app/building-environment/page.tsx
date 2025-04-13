@@ -12,32 +12,37 @@ export default function BuildingEnvironment(): React.ReactElement {
           <Image
             src="/images/building-environment/exterior-front.jpg"
             alt="Building Exterior Front View"
-            fill
-            className="object-cover rounded-lg"
+            width={1200}
+            height={800}
+            priority
+            className="object-cover rounded-lg w-full h-full"
           />
         </div>
         <div className="relative w-full h-[500px]">
           <Image
             src="/images/building-environment/entrance.jpg"
             alt="Building Entrance"
-            fill
-            className="object-cover rounded-lg"
+            width={1200}
+            height={800}
+            className="object-cover rounded-lg w-full h-full"
           />
         </div>
         <div className="relative w-full h-[500px]">
           <Image
             src="/images/building-environment/exterior-pool.jpg"
             alt="Building Exterior with Pool"
-            fill
-            className="object-cover rounded-lg"
+            width={1200}
+            height={800}
+            className="object-cover rounded-lg w-full h-full"
           />
         </div>
         <div className="relative w-full h-[500px]">
           <Image
             src="/images/building-environment/interior-living.jpg"
             alt="Interior Living Room"
-            fill
-            className="object-cover rounded-lg"
+            width={1200}
+            height={800}
+            className="object-cover rounded-lg w-full h-full"
           />
         </div>
       </div>

@@ -6,23 +6,23 @@ export default function DocumentsPage() {
       id: 1,
       title: 'Building Committee Bylaws',
       category: 'Regulations',
-      date: '2024-01-01',
+      date: '2025-01-01',
       size: '156 KB',
       downloadUrl: '/documents/bylaws.pdf'
     },
     {
       id: 2,
-      title: 'Property Service Contract Template',
+      title: 'Building Service Contract Template',
       category: 'Contracts',
-      date: '2024-02-15',
+      date: '2025-02-15',
       size: '234 KB',
       downloadUrl: '/documents/contract.pdf'
     },
     {
       id: 3,
-      title: '2024 Property Management Fee Standards',
+      title: '2025 Utilities and Rent Standards',
       category: 'Fee Standards',
-      date: '2024-03-01',
+      date: '2025-03-01',
       size: '89 KB',
       downloadUrl: '/documents/fees.pdf'
     },
@@ -30,7 +30,7 @@ export default function DocumentsPage() {
       id: 4,
       title: 'Renovation Management Regulations',
       category: 'Regulations',
-      date: '2024-03-15',
+      date: '2025-03-15',
       size: '178 KB',
       downloadUrl: '/documents/renovation.pdf'
     }
@@ -54,7 +54,7 @@ export default function DocumentsPage() {
           <div className="px-4 py-5 sm:px-6">
             <h2 className="text-lg font-medium text-gray-900">Available Documents</h2>
             <p className="mt-1 text-sm text-gray-500">
-              List of all available property management documents for download
+              List of all available building management documents for download
             </p>
           </div>
           <div className="border-t border-gray-200">

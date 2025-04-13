@@ -31,7 +31,7 @@ export default function PaymentsPage() {
       <header className="bg-white shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center">
-            <h1 className="text-3xl font-bold text-gray-900">Utility Payment</h1>
+            <h1 className="text-3xl font-bold text-gray-900">Utilities & Rent Payment</h1>
             <Link href="/" className="text-blue-600 hover:text-blue-800">
               Back to Home
             </Link>
@@ -55,7 +55,7 @@ export default function PaymentsPage() {
               </p>
               <p className="text-sm text-gray-600">
                 <span className="font-medium">Due Date: </span>
-                <span>2024-04-30</span>
+                <span>2025-04-30</span>
               </p>
             </div>
           </div>
@@ -79,7 +79,7 @@ export default function PaymentsPage() {
 
             <div>
               <label htmlFor="utilityType" className="block text-sm font-medium text-gray-700">
-                Utility Type
+                Payment Type
               </label>
               <select
                 id="utilityType"
@@ -88,6 +88,7 @@ export default function PaymentsPage() {
                 onChange={handleChange}
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"
               >
+                <option value="rent">Rent</option>
                 <option value="electricity">Electricity</option>
                 <option value="water">Water</option>
                 <option value="gas">Gas</option>

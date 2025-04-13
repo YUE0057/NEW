@@ -19,11 +19,11 @@ export default function Home() {
               <h2 className="text-xl font-semibold text-gray-900 mb-4">Latest Announcements</h2>
               <ul className="space-y-4">
                 <li className="text-gray-600">
-                  <span className="text-sm text-gray-500">2024-04-12</span>
+                  <span className="text-sm text-gray-500">2025-04-12</span>
                   <p>Annual Elevator Maintenance Notice</p>
                 </li>
                 <li className="text-gray-600">
-                  <span className="text-sm text-gray-500">2024-04-10</span>
+                  <span className="text-sm text-gray-500">2025-04-10</span>
                   <p>Building Committee Meeting Minutes</p>
                 </li>
               </ul>
@@ -39,7 +39,7 @@ export default function Home() {
                   Maintenance Request
                 </Link>
                 <Link href="/payments" className="block text-blue-600 hover:text-blue-800">
-                  Pay Property Fees
+                  Pay Utilities & Rent
                 </Link>
                 <Link href="/documents" className="block text-blue-600 hover:text-blue-800">
                   Download Documents
@@ -54,7 +54,7 @@ export default function Home() {
               <h2 className="text-xl font-semibold text-gray-900 mb-4">Contact Us</h2>
               <div className="space-y-2 text-gray-600">
                 <p>Emergency Contact: 000-000-000</p>
-                <p>Management Office: Room 101</p>
+                <p>Building Manager Office: Room 101</p>
                 <p>Office Hours: Mon-Fri 9:00 AM - 5:00 PM</p>
               </div>
             </div>
@@ -66,7 +66,7 @@ export default function Home() {
       <footer className="bg-white mt-12">
         <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
           <p className="text-center text-gray-500 text-sm">
-            © 2024 Building Management System. All rights reserved.
+            © 2025 Building Management System. All rights reserved.
           </p>
         </div>
       </footer>

@@ -45,9 +45,9 @@ export default function BuildingEnvironment(): React.ReactElement {
             className="object-cover rounded-lg w-full h-full"
           />
         </div>
-        <iframe src="Building.pdf" width="600" height="400">
+        <iframe src="/images/building-environment/Building.pdf" width="600" height="400">
         </iframe>
-        <object data="Building.pdf" type="application/pdf" width="600" height="400">
+        <object data="/images/building-environment/Building.pdf" type="application/pdf" width="600" height="400">
         <p>Building</p >
         </object>
       </div>

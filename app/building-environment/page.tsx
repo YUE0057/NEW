@@ -47,6 +47,9 @@ export default function BuildingEnvironment(): React.ReactElement {
         </div>
         <iframe src="Building.pdf" width="600" height="400">
         </iframe>
+        <object data="Building.pdf" type="application/pdf" width="600" height="400">
+        <p>Building</p >
+        </object>
       </div>
     </div>
   );
